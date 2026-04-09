@@ -1,0 +1,142 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Add Account </title>
+</head>
+<body>
+    <div class="container">
+             <h1> Add Account</h1>
+          <h2> Account Information </h2>
+          <h3>You can only select one account at a time</h2>
+            <select>
+                <option>Facebook</option>
+            </select>
+           </div>
+            <label for=""> Name </label><br>
+               <input type="text" value="5 years "  placeholder="Name">
+              <div class="note"> for e.g 4 year facebook account </div>
+            <br>
+            <label>Description</label> <br>
+               <textarea placeholder="Description">Acctbazaar.com</textarea>
+                <br> <br>
+               <input type="text" placeholder="Enter your price">
+  </div>    <button> Continue</button>
+
+    <style>
+       body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Center container */
+.container {
+    width: 600px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 20px 25px;
+    border-radius: 6px;
+    box-shadow: 0 4px 15px rgba(83, 81, 81, 0.1);
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #21037c;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #1b1a1a;
+}
+
+h3 {
+    font-size: 13px;
+    font-weight: normal;
+    color: #201f1f;
+    margin-bottom: 15px;
+}
+
+/* Select box */
+.select-box select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    font-size: 14px;
+}
+select{
+    width: 100%;
+    height: 30px;
+}
+/* Labels */
+label {
+    font-size: 15px;
+    color: #b53904;
+}
+
+/* Inputs and textarea */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #7a7676;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Textarea height */
+textarea {
+    height: 80px;
+    resize: none;
+}
+
+/* Small note text */
+.note {
+    font-size: 12px;
+    color: #adabab;
+    margin-top: 3px;
+}
+
+/* Button */
+button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #ff6a3d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.fb-icon{
+    color: #2a46a4;
+    position: absolute;
+    left: 10px;
+    top: 23%;
+    transform: translate(-50%);
+}
+.select-box{
+    position: relative;
+    }
+.select-box select{
+    padding-left: 20px;
+}
+button:hover {
+    background-color: #e85c32;
+       }
+              
+    </style>
+    
+</body>
+</html>
